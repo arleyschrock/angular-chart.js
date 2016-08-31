@@ -2,24 +2,24 @@
   "name": "angular-Chart.js",
   "version": "1.0.2",
   "main": [
-    "./dist/angular-chart.js"
+    "./dist/angular-Chart.js"
   ],
   "authors": [
     "Jerome Touffe-Blin <jtblin@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/arleyschrock/angular-chart.js.git"
+    "url": "git://github.com/arleyschrock/angular-Chart.js.git"
   },
-  "description": "An angular.js wrapper for Chart.js - reactive, responsive, beautiful charts.",
+  "description": "An angular.js wrapper for Chart.js - reactive, responsive, beautiful Charts.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "angular",
     "angular.js",
-    "chartjs",
-    "chart",
+    "Chartjs",
+    "Chart",
     "reactive",
     "responsive",
     "graph",
@@ -39,10 +39,10 @@
   ],
   "dependencies": {
     "angular": "1.x",
-    "chart.js": "Chart.js#2.x"
+    "Chart.js": "Chart.js#2.x"
   },
   "overrides" : {
-    "chart.js": {
+    "Chart.js": {
       "main": [
         "dist/Chart.bundle.min.js"
       ]
